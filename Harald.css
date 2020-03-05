@@ -1,0 +1,59 @@
+body{
+    margin: 27;
+    padding: 10;
+    background-color: rgb(73, 121, 169); 
+    background-image: url(1.jpg);
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+#Hovedoverskrift{
+    color: floralwhite;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 100px;
+}
+p{
+    color:floralwhite;
+    text-align: center;
+}
+#link1{
+    color: floralwhite;
+    text-align: center;
+}
+#MegOmNoenAar{
+    width: 1000px;
+    margin: 100;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+}
+ul {
+    list-style-type: none;
+    margin:  0;
+    padding: 0;
+    width: 95%;
+    position: fixed;
+    overflow: hidden;
+    background-color: yellow;
+}
+
+li {
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 75px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(90, 63, 155);
+}
+.active{
+    background-color: aliceblue
+}
